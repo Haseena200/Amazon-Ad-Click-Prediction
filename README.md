@@ -8,33 +8,6 @@ To build a machine learning classification model that predicts whether a user wi
 train.csv
 test.csv
 
-## Project Features
-User Data Preprocessing: Cleaning, encoding, and handling missing values.
-
-Train-Test Split: For unbiased model evaluation.
-
-Modeling: Random Forest Classifier for robust binary classification.
-
-Model Evaluation:
-
-Accuracy Score
-
-Confusion Matrix
-
-Classification Report
-
-Predictions on Test Data: Final classification output on unseen data.
-
-Python
-
-Pandas – data loading and manipulation
-
-NumPy – numerical computation
-
-Matplotlib – basic data visualization
-
-Scikit-learn – model training, evaluation, and prediction
-
 ## Solution Approach
 Data Collection
 
