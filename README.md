@@ -9,71 +9,45 @@ train.csv
 test.csv
 
 ## Solution Approach
-Data Collection
-
-Collected training and testing data (train.csv and test.csv) containing user information such as age, gender, device type, and interaction history.
-
-Data Preprocessing
-
-Loaded the data using Pandas.
-
-Handled missing values (if any).
-
-Encoded categorical variables using Label Encoding.
-
-Selected relevant features for model training.
-
-Train-Test Split
-
-Split the training data into training and validation sets using train_test_split to evaluate model performance.
-
-Model Selection
-
-Used Random Forest Classifier from Scikit-learn due to its accuracy and ability to handle both numerical and categorical data.
-
-Model Training
-
-Trained the Random Forest model on the processed training data.
-
-Model Evaluation
-
-Evaluated the model using:
-
-Accuracy Score
-
-Confusion Matrix
-
-Classification Report (Precision, Recall, F1-Score)
-
-Prediction on Test Data
-
-Applied the trained model to the test dataset for final prediction of ad clicks.
-
-Insights & Interpretation
-
-Analyzed which features impacted the model the most.
-
-Identified user patterns to improve ad targeting strategies.
+1. Data Preprocessing
+- Removed irrelevant columns (e.g., full_name)
+- Checked for null values and handled them (if any)
+- Encoded categorical variables (LabelEncoding / OneHotEncoding)
+- Split train.csv into features (X) and target (y)
+2. Exploratory Data Analysis (EDA)
+- Visualized class imbalance
+- Analyzed trends based on:
+- Age groups and click behavior
+- Gender vs click
+- Device type vs click
+- Ad position influence
+- Time of day vs user activity
+3. Model Building
+- Tried multiple classification algorithms
+- Used train_test_split for validation
+- Evaluated using:
+. Accuracy
+.  Precision
+. Recall
+. F1-score
+. Confusion Matrix
+4. Prediction & Submission
+- Selected the best performing model
+- Applied the model on test.csv
+- Created submission.csv with final predictions
 
 ## Key Questions Answered
-What percentage of users clicked on ads in the dataset?
-
-Which features most influence ad click behavior?
-
-How well can we predict future user interactions?
-
-What’s the performance of the Random Forest model?
-
-Can we identify high-probability click users?
+- What percentage of users clicked on ads in the dataset?
+- Which features most influence ad click behavior?
+- How well can we predict future user interactions?
+- What’s the performance of the Random Forest model?
+- Can we identify high-probability click users?
 
 ## Key Insights
-Top Predictors: Age, device type, and timestamp contribute most to predicting ad clicks.
-
-Model Performance: Random Forest achieved good accuracy with balanced precision and recall.
-
-Engagement Patterns: Certain demographics show higher click-through rates.
-
-Business Impact: Better targeting of ads to high-engagement users.
+- Top Predictors: Age, device type, and timestamp contribute most to predicting ad clicks.
+- Model Performance: Random Forest achieved good accuracy with balanced precision and recall.
+- Engagement Patterns: Certain demographics show higher click-through rates.
+- Business Impact: Better targeting of ads to high-engagement users.
 
 ## Final Conclusion 
 This machine learning project demonstrates the potential of using user data to predict ad click behavior. The model achieved strong performance and offers actionable insights for improving ad targeting. With further tuning and real-time integration, this solution can significantly enhance the efficiency of advertising campaigns.
