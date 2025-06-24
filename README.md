@@ -59,3 +59,5 @@
 -	Mobile device users were significantly more likely to click on ads than users on Desktop or Tablet.
 -	Evening was the most effective time of day for ad engagement, followed by Afternoon.
 -	Shopping and Entertainment browsing categories led to more ad clicks, suggesting user intent or mood matters.
+  ## Conclusion
+•	This project built a machine learning model to predict whether users will click on online ads. After analyzing user data and testing different models, the Random Forest Classifier gave the best results. We found that younger users, especially those using mobile devices and browsing in the evening, are more likely to click on ads. These results can help improve ad targeting and increase user engagement.
