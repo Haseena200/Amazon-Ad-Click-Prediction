@@ -6,3 +6,6 @@
 1.	Exploratory Data Analysis (EDA)
  -	Data Inspection: Checked for missing values, datatypes, and class imbalance in the target (click) column.
  - 	Target Distribution: Found that click behavior was imbalanced (more 0s than 1s).
+ -	Univariate Analysis: Visualized individual features like age, gender, and device_type using histograms and bar plots.
+ - Bivariate Analysis: Analyzed relationships between features and click using heatmaps and group comparisons.
+ - 	Outlier Detection: Identified unusual values in age via boxplots. Insights:
