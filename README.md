@@ -25,3 +25,13 @@
 -	Hyperparameter Tuning: Used GridSearchCV / RandomizedSearchCV to optimize:
 -	n_estimators, max_depth, min_samples_split
 -	Outcome: Improved accuracy and F1-score with tuned Random Forest model.
+4.	Model Evaluation
+-	Metrics Used:
+-	Accuracy – overall correctness
+-	Precision & Recall – for handling imbalance
+-	F1-Score – key metric due to class imbalance
+-	Confusion Matrix – performance summary
+- ROC-AUC Curve – assessed model's classification threshold
+5.	Final Prediction
+-	Predictions made on test.csv
+-	Results saved in submission.csv
