@@ -54,3 +54,8 @@
  - NumPy 
  - Matplotlib / Seaborn
  - scikit-learn 
+## Key Insights
+-	Younger users (ages 18–30) had a higher click-through rate (CTR) compared to older age groups.
+-	Mobile device users were significantly more likely to click on ads than users on Desktop or Tablet.
+-	Evening was the most effective time of day for ad engagement, followed by Afternoon.
+-	Shopping and Entertainment browsing categories led to more ad clicks, suggesting user intent or mood matters.
