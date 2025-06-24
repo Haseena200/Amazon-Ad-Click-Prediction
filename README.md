@@ -48,3 +48,9 @@
 - Which machine learning model performed best in terms of accuracy and F1-score?
 - Which features (age, device_type, browsing_history, etc.) were most important in predicting clicks?
 - How can these predictions help improve ad targeting and marketing strategies?
+## Tools Used
+ - Python
+ - Pandas 
+ - NumPy 
+ - Matplotlib / Seaborn
+ - scikit-learn 
