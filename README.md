@@ -9,3 +9,5 @@
  -	Univariate Analysis: Visualized individual features like age, gender, and device_type using histograms and bar plots.
  - Bivariate Analysis: Analyzed relationships between features and click using heatmaps and group comparisons.
  - 	Outlier Detection: Identified unusual values in age via boxplots. Insights:
+ -	Younger users clicked more often.
+ - Mobile users were more likely to click ads than desktop or tablet users.
