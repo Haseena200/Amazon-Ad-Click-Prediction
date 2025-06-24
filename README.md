@@ -5,9 +5,23 @@
 ## Solution Approach
 1.	Exploratory Data Analysis (EDA)
  -	Data Inspection: Checked for missing values, datatypes, and class imbalance in the target (click) column.
- - 	Target Distribution: Found that click behavior was imbalanced (more 0s than 1s).
+ - Target Distribution: Found that click behavior was imbalanced (more 0s than 1s).
  -	Univariate Analysis: Visualized individual features like age, gender, and device_type using histograms and bar plots.
  - Bivariate Analysis: Analyzed relationships between features and click using heatmaps and group comparisons.
  - 	Outlier Detection: Identified unusual values in age via boxplots. Insights:
  -	Younger users clicked more often.
  - Mobile users were more likely to click ads than desktop or tablet users.
+2.	Data Preprocessing
+-	Dropped Irrelevant Columns: full_name was removed due to no predictive value.
+-	Label Encoding: Categorical variables (gender, device_type, ad_position, etc.) were encoded using LabelEncoder.
+-	Handled Missing Values: Filled missing values using mode (categorical) and median (numerical).
+- Feature Selection: Removed unnecessary or highly correlated columns.
+3.	Model Building
+-	Problem Type: Binary Classification – Predicting click (0 or 1).
+-	Models Tested:
+-	Logistic Regression
+-	Decision Tree
+-	Random Forest (Primary Model) – chosen for handling mixed data types and avoiding overfitting.
+-	Hyperparameter Tuning: Used GridSearchCV / RandomizedSearchCV to optimize:
+-	n_estimators, max_depth, min_samples_split
+-	Outcome: Improved accuracy and F1-score with tuned Random Forest model.
