@@ -35,3 +35,16 @@
 5.	Final Prediction
 -	Predictions made on test.csv
 -	Results saved in submission.csv
+## Key Questions
+- How many users are present in the training dataset?
+- What percentage of users clicked on ads (click = 1) vs. didn’t (click = 0)?
+- Are there missing or inconsistent values in the dataset?
+- What is the distribution of users across device types (Mobile, Desktop, Tablet)?
+- Which browsing categories (e.g., Shopping, News, Entertainment) are most common among users?
+- Does age influence whether users click on ads?
+- Which gender group shows higher ad engagement (click rate)?
+- Which device type has the highest ad click rate?
+- At what time of day (Morning, Afternoon, Evening, Night) are users most likely to click on ads?
+- Which machine learning model performed best in terms of accuracy and F1-score?
+- Which features (age, device_type, browsing_history, etc.) were most important in predicting clicks?
+- How can these predictions help improve ad targeting and marketing strategies?
